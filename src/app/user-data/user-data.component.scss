@@ -1,0 +1,33 @@
+th{
+  color:grey
+}
+
+.nav-list{
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+.nav-list li{
+  list-style-type: none;
+  padding: 20%;
+}
+
+
+.sidebar{
+  background-color:rgba(48,50,208,255);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.search{
+  background-color: aliceblue;
+  border-radius: 25px;
+  width: 300px;
+  font-size: 13px;
+  padding: 10px;
+  padding-left: 20px;
+}

@@ -1,0 +1,21 @@
+<div class="d-flex" style="height: 100%;">
+  <div class="container left">
+    <h2 class="fw-bold fs-4 mt-5" style="margin-left: 40%; color: rgb(62, 62, 255);">HMA</h2>
+  </div>
+  <div class="container img">
+  </div>
+
+  <div class="container form p-4 w-25 rounded-3">
+    <h3 class="fw-bold fs-4 mb-5 mt-2">Welcome Back!</h3>
+    <form [formGroup]="loginForm" (ngSubmit)="submit()">
+      <div class="mb-4">
+        <input type="text" class="form-control" placeholder="Email" formControlName="email">
+      </div>
+      <div class="mb-2">
+        <input type="password" class="form-control" placeholder="Password" formControlName="password">
+      </div>
+      <div><a>Forget Password?</a></div>
+      <button class="btn btn-lg btn-primary fs-6 w-50" type="submit">Login</button>
+    </form>
+  </div>
+</div>
