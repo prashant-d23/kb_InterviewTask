@@ -16,7 +16,7 @@ export class UserDataComponent implements OnInit {
   ngOnInit() {
     this.getData();
   }
-
+//All Clients - http://hmaapi.kilobytetech.com/users?pageNo=1&size=20
   //my localHost:4200 server dont have access to your api data it is throwing the CORS Policy error
   // so I just rendered data that i can access for example.
   getData() {
